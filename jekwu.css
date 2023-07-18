@@ -1,0 +1,12 @@
+h1 {
+  font-size: 1.65rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #4169e1;
+  font-weight: bold;
+}
+
+p {
+  font-style: italic;
+  font-size: 1.50rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
