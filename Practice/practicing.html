@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Create the page title -->
+    <title>Practice Page</title>
+    <!-- Create Favicon(the icon/logo beside the title on the web browser) -->
+    <link rel="icon" href="https://tembea-afrika.vercel.app/img/logo-green.ico">
+  </head>
+  <body>
+    <h1>Color Styling</h1>
+    <p style="color:royalblue; background-color: aquamarine;">Give this text a royal blue color and it's background aquamarine color</p>
+    <pre>
+      <h2>Making Comments</h2>
+      <!-- <p>Comment this part out please</p> -->
+      <!-- Creating links(Absolute URL) -->
+      <a href="https://tembea-afrika.vercel.app/">View full site</a>
+      <!-- Create link (Absolute URL) that opens a new tab without closing the current tab -->
+      <a href="https://tembea-afrika.vercel.app/" target="_blank">View full site</a>
+      <!-- Create link(relative URL) to open another page within a website-->
+      <a href="jekwu.html" target="_blank">Check another page</a>
+      <!-- Create Link to email address -->
+      <a href="mailto: aniebuechukwujekwu@gmail.com">Drop a mail for me</a>
+      <!-- Create a table -->
+      <table>
+        <!-- Create table row -->
+        <tr>
+          <!-- Create table heading(first row) -->
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Address</th>
+        </tr>
+        <tr>
+          <!-- Create table data(second row and the rest) -->
+          <td>Abdulahi</td>
+          <td>Ekenechukwu</td>
+          <td>22</td>
+          <td>234 Sam Wakilo Avenue, Alaukwu, Ikem.</td>
+        </tr>
+        <tr>
+          <!-- Create table data(add additional row) -->
+          <td>Omenuko</td>
+          <td>Gbenga</td>
+          <td>31</td>
+          <td>98 Karfin Karchi Street, Yuguda.</td>
+        </tr>
+      </table>
+      <!-- Create Unordered List -->
+      <ul>
+        <!-- Add list element -->
+        <li>Ikenna</li>
+        <li>Emeka</li>
+        <li>Ifunanya</li>
+        <li>Udochukwu</li>
+      </ul>
+      <!-- Create Ordered list -->
+      <ol>
+        <li>Timileyin</li>
+        <li>Ralph</li>
+        <li>Igwebuike</li>
+        <li>Somto</li>
+      </ol>
+      <!-- Create Description list -->
+      <dl>
+        <!-- Create list item to be described -->
+        <dt>Ikenna</dt>
+        <!-- Description of Ikenna -->
+        <dd> @This is the head of the house</dd>
+        <dt>Timileyin</dt>
+        <dd> @This is the neck in the house</dd>
+        <dt>Igwebuike</dt>
+        <dd> @This is the son of the house</dd>
+        <dt> Ifunanya</dt>
+        <dd> @This is the daughter of the house</dd>
+      </dl>
+    </pre>
+    <!-- Create Block Elements -->
+    <div style="color: brown; background-color: aqua;">
+      <!-- Used to create different sections on webpage -->
+      <h2>Section 1</h2>
+      <i>This is where the cookie runs</i>
+    </div>
+    <div style="border: solid 0.3rem blue; border-radius: 0.21rem;">
+      <h2>Section 2</h2>
+      <b>This life is not as you think</b>
+    </div>
+    <!-- Create inline element -->
+    <strong>As e dey hot, <mark>of course!, <ins>carry dey go </ins></mark> </strong>
+    <p>Lets look at <em>how you gonna do that</em></p>
+    <!-- Create iframe(for creating a webpage inside a webpage) -->
+    <!--<iframe src="https://tembea-afrika.vercel.app/" height="60.45rem" width="49.96rem" style="border: none";>This is Afrika</iframe>-->
+    <iframe src="https://tembea-afrika.vercel.app/" frameborder="0"></iframe>
+    <!-- Create Symbols -->
+    <pre>
+      This is the Euros sign &euro;
+      This is the pound sign &pound;
+      This is the diamond sign &diamond;
+      This is the dollar sign &dollar;
+      This is the copyright sign &#169;
+      This is the registered sign &#174;
+      This is the trade mark sign &#8482;
+      This is the spade card sign &#9824;
+      This is the cloak card sign &#9827;
+      This is the heart card sign &#9829;
+      This is the diamond card sign &#9830;
+    </pre>
+    <!-- Create forms -->
+    <!-- The action attribute on the form tag is to state the location/url, within or external, where the form details will be sent to -->
+    <!-- The method attribute used in the form is to specify how the data collected can be shown on the url(GET method shows details on the url search bar while POST do not. Html uses GET by default if no method is specified.) -->
+    <form action="data-collection.html" method="get" target="_blank">
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username">
+      <br>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+      <br>
+      <label for="username1">Tunde</label>
+      <input type="checkbox" name="username1" id="username1" value="Tunde">
+      <br>
+      <label for="username2">Omolara</label>
+      <input type="checkbox" name="username2" id="username2" value="Omolara">
+      <br>
+      <label for="username3">Nkechi</label>
+      <input type="radio" name="username3" id="username3" value="Nkechi">
+      <br>
+      <label for="username4">Ikechukwu</label>
+      <input type="radio" name="username4" id="username4" value="Ikechukwu">
+      <br>
+      <label for="color">Your favorite color</label>
+      <input type="color" name="color1" id="color1">
+      <br>
+      <label for="range1">Select From Lowest to Highest</label>
+      <input type="range" name="range2" id="range1">
+      <br>
+      <input type="submit" value="push">
+    </form>
+  </body>
+</html>
