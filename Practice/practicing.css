@@ -1,0 +1,61 @@
+/* Create the decoration/styling of the body tag(body == selector; all inside {} are declarations) */
+body {
+  background-color: beige; /* #f5f5dc */
+  opacity: 0.85;
+  background-image: url(practicing-plain-background-image.jpg);
+  background-position: top;
+  font-size: 1.73rem;
+  font-family: 'Georgia', Times New Roman, Times, serif;
+}
+
+/* Create the decoration/styling of the style id that is inside the h1 tag */
+#style {
+  color: darkolivegreen; /* #556b2f */
+  font-weight: bolder;
+  border: 0.21rem solid grey; /* #808080 */
+  border-style: groove double inset dotted; /* combination of border styles 1st==top; 2nd==right; 3rd==bottom; 4th==left */
+  border-width: 0.13rem 0.33rem 0.53rem 0.73rem; /* Create different border width/thickness on the same line 1st==top; 2nd==right; 3rd==bottom; 4th==left */
+  border-color: cornflowerblue darkolivegreen darkorange forestgreen; /* Create different border color on the same line 1st==top(#6495ed); 2nd==right(#556b2f); 3rd==bottom(#ff8c00); 4th==left(#228b22) */
+}
+
+/* Create the decoration/styling of the prev class that is inside the first pre tag */
+.prev {
+  font-style: italic;
+  color: chocolate; /* #d2691e */
+}
+
+/* Create the styling of the make class that is inside h2 tag which is inside the pre tag */
+h2.make {
+  font-weight: bold;
+  font-size: 1.65rem;
+  color: darkgoldenrod; /* #b8860b */
+  margin: 1.67rem 1.76rem;
+  border-style: outset;
+  border-width: 0.24rem 0.44rem; /* Create different border width/thickness on the same line 1st==top & bottom; 2nd==right & left */
+  border-color: blanchedalmond blueviolet;  /* Create different border color on the same line 1st==top & bottom(#ffebcd); 2nd==right & left(#8a2be2) */
+}
+
+/* Create the universal selector */
+* {
+  padding-left: 0.6rem;
+  /* display: block; */
+}
+
+/* Create Grouping selector */
+h1, h2 {
+  text-align: center;
+  margin: inherit; /* Inherits the margin at h2.make selector */
+}
+
+/* Create margin for the table tag in one line(1st==top; 2nd==right; 3rd==bottom; 4th==left) */
+table {
+  margin: 1.34rem 3.23rem 1.13rem 1.25rem;
+  border: 0.22rem dashed rebeccapurple; /* #663399 */
+  border-radius: 1.54rem;
+  color: darkgreen; /* #006400 */
+}
+
+/* Create borders on the description list tag */
+dl dt {
+  border-bottom: 0.22rem dotted wheat; /* 1st==border width; 2nd==border style; 3rd==border color(#f5d...) */
+}
