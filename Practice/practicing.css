@@ -16,6 +16,11 @@ body {
   border-style: groove double inset dotted; /* combination of border styles 1st==top; 2nd==right; 3rd==bottom; 4th==left */
   border-width: 0.13rem 0.33rem 0.53rem 0.73rem; /* Create different border width/thickness on the same line 1st==top; 2nd==right; 3rd==bottom; 4th==left */
   border-color: cornflowerblue darkolivegreen darkorange forestgreen; /* Create different border color on the same line 1st==top(#6495ed); 2nd==right(#556b2f); 3rd==bottom(#ff8c00); 4th==left(#228b22) */
+  padding: 0.44rem 2.44rem 0.67rem 2.67rem; /* Create spaces around the texts/object 1st==top; 2nd==right; 3rd==bottom; 4th==left */
+  max-height: 40%;
+  max-width: 80%;
+  outline-style: solid; /* Create an outline/line around an element or border. Can be used in place of border element */
+  outline-offset: 0.36rem; /* Create space between outline and border */
 }
 
 /* Create the decoration/styling of the prev class that is inside the first pre tag */
@@ -33,6 +38,11 @@ h2.make {
   border-style: outset;
   border-width: 0.24rem 0.44rem; /* Create different border width/thickness on the same line 1st==top & bottom; 2nd==right & left */
   border-color: blanchedalmond blueviolet;  /* Create different border color on the same line 1st==top & bottom(#ffebcd); 2nd==right & left(#8a2be2) */
+  padding: 0.44rem 2.67rem; /* Create spaces around the texts/object 1st==top & bottom; 2nd==right & left; */
+  height: 40%;
+  width: 80%;
+  outline-style: dotted; /* Create an outline/line around an element or border. Can be used in place of border element */
+  outline-offset: 0.34rem; /* Create space between outline and border */
 }
 
 /* Create the universal selector */
@@ -53,9 +63,37 @@ table {
   border: 0.22rem dashed rebeccapurple; /* #663399 */
   border-radius: 1.54rem;
   color: darkgreen; /* #006400 */
+  text-indent: 0.85rem; /* Indents texts. Can also be used to achieve spacing between table columns */
 }
 
 /* Create borders on the description list tag */
 dl dt {
   border-bottom: 0.22rem dotted wheat; /* 1st==border width; 2nd==border style; 3rd==border color(#f5d...) */
+  outline: solid 0.21rem palevioletred; /* 1st==outline style; 2nd==outline width; 3rd==outline color(#d87093) */
+  border-bottom-right-radius: 2.33rem;
+  
+}
+
+/* Create text alignment or modification on the detail description tag */
+dl dt dd {
+  text-align-last: center; /* Text aligns the last line of text from thr centre */
+
+}
+
+#small {
+  vertical-align: top; /* Aligns the text in the small tag to the top */
+  text-decoration-color: blue; /* Makes the text decoration line blue */
+  text-decoration-line: underline; /* Underlines the texts selected */
+  text-transform: uppercase; /* Makes every letter capital */
+  letter-spacing: 0.25rem; /* Create space between lines */
+}
+
+.son {
+  text-decoration: overline double tomato 0.13rem; /* Decorates text 1st==line; 2nd==style; 3rd==color(#ff6347); 4th==thickness(width) */
+  text-transform: capitalize; /* Capitalizes every first letter of a sentence */
+  
+}
+
+a {
+  text-decoration: none; /* Takes off all the lines under all the links in a page. The links will still be fully functional */ 
 }
